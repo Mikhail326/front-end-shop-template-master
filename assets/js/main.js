@@ -45,8 +45,7 @@ const btnClickHandler = (e) => {
       target.innerHTML = restoreHTML;
       enableControls(target, btnClickHandler);
     }, interval);
-  };
-
+  }
 }
 
 contentContainer.addEventListener('click', btnClickHandler);
